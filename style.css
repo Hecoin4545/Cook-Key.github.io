@@ -1,0 +1,193 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: futura;
+    src: url(futura\ font.ttf);
+}
+
+#container-cookie-factory {
+    margin: 20px 100px;
+    height: 91vh;
+    font-family: futura;
+}
+
+/* font-family: 'Bodoni Moda', serif; */
+
+.nav-bar {
+    height: 9vh;
+}
+
+.right-nav-side-logo {
+    float: left;
+    height: 9vh;
+    width: 25%;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.left-side-nav {
+    float: left;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.left-side-nav ul {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    list-style: none;
+}
+
+.ids {
+    color: #004B75;
+    padding: 0px 14px;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.illustration {
+    position: relative;
+    top: -60px;
+    width: 31rem;
+    left: 50px;
+}
+
+.main-content {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.right-main-side {
+    height: 64vh;
+    width: 33vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    left: 25px;
+    top: 50px;
+    width: 94%;
+}
+
+.content p {
+    font-size: 25px;
+    width: 92%;
+    position: relative;
+    top: 12px;
+    color: #004B75;
+    font-weight: bold;
+}
+
+.left-main-side h1 {
+    font-size: 68px;
+    width: 93%;
+    line-height: 68px;
+}
+
+.left-main-side {
+    height: 64vh;
+    width: 46vw;
+}
+
+.btn {
+    height: 5vh;
+    width: 24%;
+    background-color: #FFBFBE;
+    color: #004B75;
+    position: relative;
+    top: 34px;
+    font-size: 13px;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+span {
+    color: #004B75;
+    font-size: 62px;
+}
+
+.img {
+    width: 138px;
+    height: 38px;
+    position: relative;
+    top: 9px;
+}
+
+.center-main {
+    float: right;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+}
+
+.diff-circle {
+    width: 30px;
+    height: 30px;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: red;
+    margin: 0px 5px;
+}
+
+.diff-circle:hover {
+    cursor: pointer;
+}
+
+#color-scheme-2 {
+    background-color: black;
+}
+
+#color-scheme-3 {
+    background-color: #81f6ff;
+}
+
+#color-scheme-4 {
+    background-color: yellow;
+}
+
+.body {
+    background-color: #2BEB38;
+}
+
+.redColor {
+    background-color: red;
+}
+
+.blackColor {
+    background-color: black;
+}
+
+.greenColor {
+    background-color: #81f6ff;
+}
+
+.purpleColor {
+    background-color: #f4ff00;
+}
+
+.colorYellow {
+    color: yellow;
+}
+
+.illust {
+    display: none;
+}
